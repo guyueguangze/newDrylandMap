@@ -1,0 +1,14 @@
+.root {
+  :global {
+    height: 100%;
+    display: flex;
+    .map_content {
+      width: calc(100% - 500px);
+      height: 100%;
+    }
+    .right_operate {
+      width: 500px;
+      height: 100%;
+    }
+  }
+}

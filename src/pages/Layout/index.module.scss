@@ -1,0 +1,20 @@
+.root {
+  height: 100%;
+  :global {
+    height: '100%';
+    background-color: '#EFF2F5';
+    .footer {
+      margin-top: 16px;
+      height: 20px;
+      font-family: PingFangSC, PingFang SC;
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.45);
+      line-height: 20px;
+      text-align: left;
+      font-style: normal;
+      text-align: center;
+      background-color: rgb(239, 242, 245);
+    }
+  }
+}

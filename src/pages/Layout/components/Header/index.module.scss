@@ -1,0 +1,75 @@
+.root {
+  :global {
+    .ant-layout-header {
+      background-color: rgb(228, 220, 203);
+    }
+    .header_content {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: #000;
+      .header_content_left {
+        display: flex;
+        .title {
+          height: 60px;
+        }
+        .menu_content {
+          display: flex;
+          .menu_item {
+            width: 130px;
+            height: 60px;
+            align-items: center;
+            text-align: center;
+          }
+          .path_active {
+            // background-color: #3c536d;
+          }
+        }
+      }
+      .header_content_right {
+        display: flex;
+        align-items: center;
+        .admin {
+          width: 114px;
+          height: 34px;
+          background: #f2f8fa;
+          border-radius: 17px;
+          font-family: AlibabaPuHuiTi_2_65_Medium;
+          font-size: 14px;
+          color: rgba(0, 0, 0, 0.65);
+          line-height: 34px;
+          text-align: center;
+          margin-left: 10px;
+        }
+      }
+    }
+    .header_2 {
+      height: 98px;
+      background: #ffffff;
+      padding-left: 32px;
+      display: flex;
+      align-items: center;
+      .title_1 {
+        height: 22px;
+        font-family: AlibabaPuHuiTi_2_55_Regular;
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.45);
+        line-height: 22px;
+        text-align: left;
+        font-style: normal;
+      }
+      .title_2 {
+        margin-top: 10px;
+        height: 28px;
+        font-family: AlibabaPuHuiTi_2_65_Medium;
+        font-size: 20px;
+        color: rgba(0, 0, 0, 0.85);
+        line-height: 28px;
+        text-align: left;
+        font-style: normal;
+        font-weight: 800;
+      }
+    }
+  }
+}
